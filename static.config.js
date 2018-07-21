@@ -10,6 +10,7 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
+        plugins: ["react-static-plugin-styled-components"],
       },
       {
         path: '/about',
